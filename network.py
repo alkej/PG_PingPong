@@ -5,7 +5,7 @@ import json
 class Network:
     def __init__(self):
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.host = "109.111.134.116"
+        self.host = ""
 
         self.port = 9091
         self.addr = (self.host, self.port)
